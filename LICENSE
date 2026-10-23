@@ -1,0 +1,56 @@
+LiquidGlass License
+Copyright (c) 2026 Entity. All rights reserved.
+
+This license covers everything in this repository: the source code, the built
+library (dist/LiquidGlass.lua), the icons, textures, sounds, 3D logo, images and
+documentation (together, "the Software").
+
+The Software is NOT open source. It is published so that people can use it in
+their own Roblox scripts, and for nothing else.
+
+1. What you may do
+
+   You may load the official, unmodified Software from this repository (for
+   example with the loadstring shown in the README) and use it as the user
+   interface of your own scripts, including scripts you share with others.
+   This permission is free of charge, non-exclusive, non-transferable, and can
+   be revoked at any time.
+
+2. What you may not do
+
+   Unless Entity has given you written permission first, you may not:
+
+   a) copy the Software or any part of it into other projects, files or
+      repositories, or host, mirror, re-upload or redistribute it anywhere
+      else, whether changed or unchanged;
+   b) modify, translate, adapt, deobfuscate or build other works on the
+      Software, or ship a changed version of it, including inside your own
+      scripts;
+   c) take out and reuse any part of it on its own, such as code, the
+      sounds, icons, textures, the 3D logo or the images;
+   d) sell, rent, license or otherwise make money from the Software itself,
+      or put it behind a paywall, key system or link shortener;
+   e) remove, hide or change this license, the copyright notice, or the
+      "Made by Entity" credit and intro (letting the player skip the intro
+      by clicking or pressing a key is fine);
+   f) present the Software, or any part of it, as your own work.
+
+3. Viewing and forking on GitHub
+
+   Because this repository is public, GitHub's Terms of Service let other
+   GitHub users view it and fork it on GitHub. A fork does not give anyone
+   any of the rights listed under 2.
+
+4. Ending this license
+
+   If you break any of these terms, your permission to use the Software ends
+   right away, and you must stop using it and delete every copy you have.
+
+5. No warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR
+   OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE. You are responsible
+   for how you use it, including following Roblox's rules.
+
+For any use not allowed here, ask Entity for permission first.

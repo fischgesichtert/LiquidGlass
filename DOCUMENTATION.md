@@ -695,6 +695,8 @@ Most Rayfield and Fluent scripts work unchanged once you load LiquidGlass instea
 
 ## Building from source
 
+> These are the author's build and test tools. The [license](LICENSE) does not allow modified or self-built versions, so scripts must load the official `dist/LiquidGlass.lua`.
+
 The library is generated from `src/` (concatenated in file-name order) plus the assets that `tools/` produce:
 
 - `tools/textures.py`: glass rims, shadows, glow, grip and checkerboard

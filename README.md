@@ -88,6 +88,10 @@ Two demos come with it:
 
 The executor needs `writefile`, `isfile` and `getcustomasset`; most current executors have them. The 3D intro uses `EditableMesh`; without it, a 2D version of the intro plays instead. Without file access the UI still works, but it shows plain outlines instead of glass textures and plays no sounds.
 
+## License
+
+LiquidGlass is **not open source**. You may load the official library in your own scripts with the loadstring above. You may not copy, modify, re-upload, redistribute or sell it or any part of it (code, sounds, icons, images), and the "Made by Entity" credit and intro must stay. See [LICENSE](LICENSE) for the full terms.
+
 ## Credits
 
 Made by **Entity**. The glass sounds were generated with ElevenLabs.
