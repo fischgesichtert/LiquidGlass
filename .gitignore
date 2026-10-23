@@ -1,0 +1,7 @@
+build/
+__pycache__/
+assets/sounds/raw/
+*.pyc
+.playwright-mcp/
+prototype/
+screenshot.png

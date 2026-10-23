@@ -1,0 +1,4 @@
+numpy
+Pillow
+fonttools
+mapbox_earcut
