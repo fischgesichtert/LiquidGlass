@@ -1,0 +1,197 @@
+[
+  {
+    "file": "hover_1.ogg",
+    "prompt": "A single very soft tiny glass tick, a fingertip barely touching a thick glass pane, faint delicate high-pitched tap, premium UI hover, close-mic'd, dry, no reverb, no noise, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.65,
+    "raw_source": "raw/hover_c.wav",
+    "final_duration_s": 0.11,
+    "mean_db": -22.2,
+    "max_db": -6.0,
+    "processing": "start trim 0.0s; highpass 300 Hz; lowpass 9000 Hz; silenceremove lead -50 dB / tail -55 dB (re -1 dBFS peak); exponential decay envelope (250 ms to -100 dB); cut <= 110 ms, fade-in 2 ms, fade-out 25 ms; loudness target -21 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "hover_2.ogg",
+    "prompt": "Barely audible tiny soft glass tick, a fingertip lightly grazing a smooth thick glass pane, delicate subtle premium UI hover sound, close-mic'd, dry, no reverb, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.6,
+    "raw_source": "raw/hover_a.wav",
+    "final_duration_s": 0.105,
+    "mean_db": -21.0,
+    "max_db": -8.0,
+    "processing": "start trim 0.0s; pitch x1.45; highpass 300 Hz; lowpass 9000 Hz; silenceremove lead -50 dB / tail -55 dB (re -1 dBFS peak); exponential decay envelope (250 ms to -100 dB); cut <= 105 ms, fade-in 2 ms, fade-out 25 ms; loudness target -21 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "click_1.ogg",
+    "prompt": "Soft crisp tap of a fingertip on a thick polished glass button, tiny clean crystalline ring, premium minimal UI click, close-mic'd, dry, no reverb, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.6,
+    "raw_source": "raw/click_b.wav",
+    "final_duration_s": 0.161,
+    "mean_db": -19.8,
+    "max_db": -3.6,
+    "processing": "start trim 0.09s; highpass 250 Hz; silenceremove lead -50 dB / tail -55 dB (re -1 dBFS peak); cut <= 240 ms, fade-in 1 ms, fade-out 100 ms; loudness target -18 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "click_2.ogg",
+    "prompt": "Gentle crisp tap on a thick smooth glass button, short clean high crystal ping, elegant premium UI button click, close-mic'd, dry, no reverb, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.65,
+    "raw_source": "raw/click_c.wav",
+    "final_duration_s": 0.13,
+    "mean_db": -20.9,
+    "max_db": -2.4,
+    "processing": "start trim 0.0s; highpass 250 Hz; silenceremove lead -50 dB / tail -55 dB (re -1 dBFS peak); cut <= 130 ms, fade-in 1 ms, fade-out 60 ms; loudness target -18 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "toggle_on.ogg",
+    "prompt": "Soft crisp tap of a fingertip on a thick polished glass button, tiny clean crystalline ring, premium minimal UI click, close-mic'd, dry, no reverb, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.6,
+    "raw_source": "raw/click_b.wav",
+    "final_duration_s": 0.26,
+    "mean_db": -21.0,
+    "max_db": -2.7,
+    "processing": "layered: click_b (from 0.09s, pitch x1.47, +0 dB, delay 0 ms) + toggle_on_c (from 0.0s, pitch x1.0, -11 dB, delay 4 ms); pitch glide x0.97->x1.03 over 150 ms; highpass 300 Hz; silenceremove lead -50 dB / tail -55 dB (re -1 dBFS peak); cut <= 260 ms, fade-in 1 ms, fade-out 150 ms; loudness target -18 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz",
+    "extra_sources": [
+      {
+        "raw_source": "raw/toggle_on_c.wav",
+        "prompt": "A single bright crystal glass tink, a small glass marble clicking firmly into a glass socket, clear high glassy ping with a slight upward pitch, satisfying premium UI switch on, close-mic'd, dry, no reverb, no rattle, no music, no voices, single one-shot",
+        "duration_requested": 0.5,
+        "influence": 0.7
+      }
+    ]
+  },
+  {
+    "file": "toggle_off.ogg",
+    "prompt": "Soft crisp tap of a fingertip on a thick polished glass button, tiny clean crystalline ring, premium minimal UI click, close-mic'd, dry, no reverb, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.6,
+    "raw_source": "raw/click_b.wav",
+    "final_duration_s": 0.217,
+    "mean_db": -20.7,
+    "max_db": -6.1,
+    "processing": "start trim 0.09s; pitch x0.75; pitch glide x1.03->x0.96 over 200 ms; highpass 150 Hz; lowpass 2500 Hz; silenceremove lead -50 dB / tail -55 dB (re -1 dBFS peak); cut <= 260 ms, fade-in 2 ms, fade-out 120 ms; loudness target -20 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "slider_tick.ogg",
+    "prompt": "One extremely short tiny crystal tick, a fingernail flicking the rim of a crystal glass once, crisp micro click, close-mic'd, dry, no reverb, no noise, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.7,
+    "raw_source": "raw/slider_tick_b.wav",
+    "final_duration_s": 0.06,
+    "mean_db": -23.3,
+    "max_db": -10.4,
+    "processing": "start trim 0.0s; highpass 400 Hz; silenceremove lead -50 dB / tail -55 dB (re -1 dBFS peak); cut <= 60 ms, fade-in 1 ms, fade-out 30 ms; loudness target -20 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "open.ogg",
+    "prompt": "Airy shimmering glass swell, a sheet of liquid glass forming, soft magical whoosh rising in with delicate glassy crystal sparkle, premium UI panel open sound, close-mic'd, short natural glass shimmer tail, no music, no voices, single one-shot",
+    "duration_requested": 1.2,
+    "influence": 0.55,
+    "raw_source": "raw/open_b.wav",
+    "final_duration_s": 0.82,
+    "mean_db": -21.8,
+    "max_db": -6.8,
+    "processing": "start trim 0.08s; highpass 250 Hz; silenceremove lead -55 dB / tail -60 dB (re -1 dBFS peak); cut <= 820 ms, fade-in 50 ms, fade-out 300 ms; loudness target -18 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "close.ogg",
+    "prompt": "Soft gentle glassy whoosh receding away, a liquid glass sheet dissolving with faint crystal shimmer fading out, premium UI panel close sound, close-mic'd, dry, no reverb, no music, no voices, single one-shot",
+    "duration_requested": 1.0,
+    "influence": 0.55,
+    "raw_source": "raw/close_a.wav",
+    "final_duration_s": 0.62,
+    "mean_db": -24.6,
+    "max_db": -8.0,
+    "processing": "start trim 0.1s; highpass 250 Hz; silenceremove lead -55 dB / tail -60 dB (re -1 dBFS peak); cut <= 620 ms, fade-in 30 ms, fade-out 350 ms; loudness target -21 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "notify.ogg",
+    "prompt": "Wine glass tapped once with a spoon, then a second smaller higher-pitched wine glass tapped right after, two clear gentle crystal ding notes in sequence, pleasant notification chime, close-mic'd, short natural glass ring tail, no music, no voices",
+    "duration_requested": 1.2,
+    "influence": 0.65,
+    "raw_source": "raw/notify_c.wav",
+    "final_duration_s": 1.05,
+    "mean_db": -21.9,
+    "max_db": -1.8,
+    "processing": "start trim 0.044s; chime built from one glass strike: pitch x0.75 @ 0 ms (-2 dB), pitch x1.0 @ 150 ms (+0 dB); highpass 200 Hz; lowpass 9000 Hz; silenceremove lead -55 dB / tail -60 dB (re -1 dBFS peak); cut <= 1050 ms, fade-in 1 ms, fade-out 450 ms; loudness target -18 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "success.ogg",
+    "prompt": "Bright ascending crystal glass chime, three quick rising notes tapped on fine glasses, positive cheerful success UI sound, close-mic'd, short natural glass ring tail, no music, no voices, single one-shot",
+    "duration_requested": 1.2,
+    "influence": 0.6,
+    "raw_source": "raw/success_a.wav",
+    "final_duration_s": 0.95,
+    "mean_db": -22.8,
+    "max_db": -2.2,
+    "processing": "start trim 0.0s; chime built from one glass strike: pitch x1.0 @ 0 ms (-3 dB), pitch x1.26 @ 75 ms (-1.5 dB), pitch x1.5 @ 150 ms (+0 dB); highpass 200 Hz; silenceremove lead -55 dB / tail -60 dB (re -1 dBFS peak); cut <= 950 ms, fade-in 1 ms, fade-out 400 ms; loudness target -18 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "error.ogg",
+    "prompt": "Two muted low soft knocks on a thick glass block, dull gentle double glass thud, soft UI error sound, close-mic'd, dry, no reverb, no music, no voices",
+    "duration_requested": 0.8,
+    "influence": 0.6,
+    "raw_source": "raw/error_a.wav",
+    "final_duration_s": 0.38,
+    "mean_db": -22.3,
+    "max_db": -1.5,
+    "processing": "start trim 0.015s; highpass 90 Hz; silenceremove lead -55 dB / tail -60 dB (re -1 dBFS peak); cut <= 380 ms, fade-in 2 ms, fade-out 150 ms; loudness target -18 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "tab.ogg",
+    "prompt": "Quick soft airy swish, a smooth pane of glass gliding past, short smooth whoosh with a faint glassy shimmer, premium UI tab switch, close-mic'd, dry, no reverb, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.6,
+    "raw_source": "raw/tab_b.wav",
+    "final_duration_s": 0.3,
+    "mean_db": -21.4,
+    "max_db": -5.9,
+    "processing": "start trim 0.0s; highpass 250 Hz; silenceremove lead -55 dB / tail -60 dB (re -1 dBFS peak); cut <= 300 ms, fade-in 10 ms, fade-out 120 ms; loudness target -19 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "popup.ogg",
+    "prompt": "A single soft water droplet bloop with a glassy tone, a small round bubble popping upward in pitch, gentle premium UI menu pop-up, close-mic'd, dry, no reverb, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.65,
+    "raw_source": "raw/popup_b.wav",
+    "final_duration_s": 0.16,
+    "mean_db": -17.4,
+    "max_db": -5.4,
+    "processing": "start trim 0.054s; highpass 150 Hz; silenceremove lead -55 dB / tail -60 dB (re -1 dBFS peak); cut <= 160 ms, fade-in 2 ms, fade-out 40 ms; loudness target -18 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "type_1.ogg",
+    "prompt": "Tiny soft glass keyboard key tick, a fingertip tapping a small glass key, minimal premium UI typing sound, close-mic'd, dry, no reverb, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.6,
+    "raw_source": "raw/type_a.wav",
+    "final_duration_s": 0.049,
+    "mean_db": -22.9,
+    "max_db": -5.9,
+    "processing": "start trim 0.055s; highpass 700 Hz (24 dB/oct); silenceremove lead -50 dB / tail -55 dB (re -1 dBFS peak); cut <= 64 ms, fade-in 1 ms, fade-out 25 ms; loudness target -20 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "type_2.ogg",
+    "prompt": "Tiny soft glass keyboard key tick, a fingertip tapping a small glass key, minimal premium UI typing sound, close-mic'd, dry, no reverb, no music, no voices, single one-shot",
+    "duration_requested": 0.5,
+    "influence": 0.6,
+    "raw_source": "raw/type_a.wav",
+    "final_duration_s": 0.049,
+    "mean_db": -23.0,
+    "max_db": -7.3,
+    "processing": "start trim 0.223s; highpass 700 Hz (24 dB/oct); silenceremove lead -50 dB / tail -55 dB (re -1 dBFS peak); cut <= 64 ms, fade-in 1 ms, fade-out 25 ms; loudness target -20 LUFS (looped-clip EBU R128), true peak <= -1.5 dBTP; mono libvorbis q4 44.1 kHz"
+  },
+  {
+    "file": "intro.ogg",
+    "prompt": "Soft warm startup chime: an airy glassy shimmer slowly swells in, a gentle rounded liquid droplet, then a lush major chord of glass harmonica and soft crystal bells blooms with several notes ringing together in harmony, dreamy, soothing, mellow, smooth slow fade out, no voices, no drums, no beat, no harsh highs, no clang",
+    "duration_requested": 3.6,
+    "influence": 0.55,
+    "raw_source": "raw/intro_d.wav",
+    "final_duration_s": 3.25,
+    "mean_db": -26.1,
+    "max_db": -8.9,
+    "processing": "start trim 0.12s, end 3.35s; highpass 70 Hz; linear-phase FIR high cut (0 dB to 4 kHz, -6 dB @ 5 kHz, -22 dB @ 5.8 kHz, -24 dB @ 7.5 kHz, -30 dB >= 12 kHz) to tame 6-7 kHz whistle partials; L/R balance -1.2/+1.2 dB; fade-in 50 ms, fade-out 800 ms (qsin); gain +14.5 dB -> -19.9 LUFS integrated (EBU R128), true peak -8.9 dBTP; stereo libvorbis q5 44.1 kHz"
+  }
+]
